@@ -1,0 +1,8 @@
+eco "# file name" >> jata banabe shatar nam
+git init
+git add 
+git commit -m "first ...commit"
+git branch -m main
+git remote add origin https://github.com/halimaashu/coding-is-my-love.gitgit remote add origin https://github.com/halimaashu/coding-is-my-love.git
+
+git push -u origin main
