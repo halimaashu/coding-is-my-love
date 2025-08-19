@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ar ashik | Web VAPT Specialist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9fafb;
+    }
+    header, section {
+      padding: 60px 15px;
+    }
+    header {
+      background: linear-gradient(to right, #0d1b2a, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      padding: 25px 10px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 40px;
+      text-align: center;
+      font-weight: 700;
+      color: #0d1b2a;
+    }
+    ul, ol {
+      padding-left: 20px;
+      color: #333;
+    }
+    blockquote {
+      font-style: italic;
+      margin: 10px 0;
+      border-left: 4px solid #00b4d8;
+      padding-left: 15px;
+      color: #555;
+      background-color: #e6f0f9;
+      border-radius: 4px;
+    }
+    /* Navbar Custom Styles */
+    .navbar {
+      background: #0d1b2a;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+    .navbar-brand {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #00b4d8;
+      letter-spacing: 0.1em;
+      transition: color 0.3s ease;
+    }
+    .navbar-brand:hover {
+      color: #90e0ef;
+    }
+    .nav-link {
+      color: #caf0f8;
+      text-transform: uppercase;
+      margin: 0 0.75rem;
+      transition: color 0.3s ease, transform 0.2s ease;
+      position: relative;
+      cursor: pointer;
+    }
+    .nav-link:hover {
+      color: #48cae4;
+      transform: scale(1.1);
+    }
+    .nav-link.active-link {
+      color: #00b4d8;
+      font-weight: 700;
+    }
+    .nav-link.active-link::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 100%;
+      height: 3px;
+      background: #00b4d8;
+      border-radius: 2px;
+    }
+    .navbar-toggler {
+      border: none;
+      outline: none;
+    }
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' " +
+        "xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(10, 161, 227, 0.9)' stroke-width='3' " +
+        "stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+    /* Page Sections visibility */
+    .page-section {
+      display: none;
+    }
+    .page-section.active {
+      display: block;
+    }
+    .box{ 
+      display: flex;
+      justify-content: center;
+
+      font-size: 3em;
+      border: 3px soild green;
+      background-color: red;
+      height: 10em;
+      width: 10em;
+      border-radius: 15%;
+      color: green;
+      align-items: center;
+    }
+    .img{
+      display: flex;
+      justify-content: center;
+      height:400px;
+      width: 900px
+    ;
+    border: 2px solid purple;
+    border-radius: 2%;
+    overflow: hidden;
+    }
+     rol{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 3em;
+        height: 90px;
+        background-color: aqua;
+      }
+     .rol{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+       grid-gap: 1em;
+       }
+       .calender ul{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        grid-gap: 1em;
+       }
+      .calender{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        font-size: 3em;
+        height: 90px;
+        background-color: aqua;
+      }
+      .other-month{
+        background-color: azure !important;
+      }
+  </style>
+</head>
+<body>
+<h2>work day 
+  <div class="calender">
+    <div class="rol">1</div>
+    <div class="rol">2</div>
+    <div class="rol">3</div>
+    <div class="rol">4</div>
+    <div class="rol">5</div>
+    <div class="rol">6</div>
+    <div class="rol">7</div>
+    <div class="rol">8</div>
+    <div class="rol">9</div>
+    <div class="rol">10</div>
+    <div class="rol">11</div>
+    <div class="rol">12</div>
+    <div class="rol">13</div>
+    <div class="rol">14</div>
+    <div class="rol">15</div>
+    <div class="rol">16</div>
+    <div class="rol">17</div>
+    <div class="rol">18</div>
+    <div class="rol">19</div>
+    <div class="rol">20</div>
+    <div class="rol">21</div>
+    <div class="rol">22</div>
+    <div class="rol">23</div>
+    <div class="rol">24</div>
+    <div class="rol">25</div>
+    <div class="rol">26</div>
+    <div class="rol">27</div>
+    <div class="rol">28</div>
+    <div class="rol">29</div>
+    <div class="rol">30</div>
+    <div class="rol">31</div>
+    <div class="rol">32</div>
+    <div class="rol">33</div>
+    <div class="rol">34</div>
+    <div class="rol">35</div>
+  </div>
+</h2>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> AR ashik</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 200px;" id="navLinks">
+        <li class="nav-item"><a class="nav-link active-link" data-target="home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="process">Process</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="tools">Tools</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="report">Report</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="case">Case Study</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="reviews">Reviews</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="faq">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" data-target="contact">Contact</a></li>
+      </ul>
+      <form class="d-flex" role="search" onsubmit="return false;">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="page-section active">
+  <header>
+    <div class="container">
+      <h1 class="display-4 fw-bold">Secure Your Web Apps Today</h1>
+      <p class="lead">I’m ashik – a wad developer expert focused on manual security testing, bug bounty hunting, and protecting businesses from cyber threats.</p>
+
+      <img src="ps.png.jpg" alt="">
+      <div class="my-4 text-center">
+        <div class="img"><img src="p.k .png.jpg" alt=""></div>
+        <img src="" alt="image" style="max-width: 100%; height: auto; border-radius: 8px; display: none;" id="homeImage" />
+      </div>
+    </div>
+  </header>
+</section>
+
+<div class="box">phone:01975665249</div>
+<h2><div style="color: violet;">enter your phone:<input type="number" name="" id=""></div>
+</h2>
+<main>
+  <section id="home" class="page-section active">
+    <header>
+      <div class="container">
+        <h1 class="display-4 fw-bold">Secure Your Web Apps Today</h1>
+        <p class="lead">I’am ar ashik – a wed developer expert focused on manual security testing, bug bounty hunting, and protecting businesses from cyber threats.</p>
+      </div>
+    </header>
+  </section>
+
+  <section id="services" class="page-section">
+    <div class="container">
+      <h2>Services I Offer</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li>✔️ Manual Web VAPT</li>
+            <li>✔️ Business Logic Testing</li>
+            <li>✔️ API Security Assessment</li>
+            <li>✔️ Authentication/Session Testing</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>✔️ OWASP Top 10 Testing</li>
+            <li>✔️ Secure Code Review Advice</li>
+            <li>✔️ Post Remediation Retesting</li>
+            <li>✔️ Compliance Focused Testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="page-section">
+    <div class="container bg-light py-5 rounded-3">
+      <h2>My VAPT Process</h2>
+      <ol>
+        <li>Scoping & Understanding the Application</li>
+        <li>Reconnaissance & Asset Discovery</li>
+        <li>Vulnerability Identification & Analysis</li>
+        <li>Exploitation with PoC</li>
+        <li>Reporting + Fix Recommendations</li>
+        <li>Free Retesting After Fixes</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="tools" class="page-section">
+    <div class="container">
+      <h2>Tools I Use</h2>
+      <ul>
+        <li>Burp Suite Pro</li>
+        <li>OWASP ZAP</li>
+        <li>Postman / Insomnia</li>
+        <li>Nmap / Nikto / Sublist3r</li>
+        <li>Custom Python Scripts</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="report" class="page-section">
+    <div class="container bg-light py-5 rounded-3">
+      <h2>What’s in My Report?</h2>
+      <ul>
+        <li>Executive Summary</li>
+        <li>Detailed Findings with Risk Ratings</li>
+        <li>Proof of Concept (PoC)</li>
+        <li>Recommended Fixes</li>
+        <li>Retest Summary</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="case" class="page-section">
+    <div class="container">
+      <h2>Case Study</h2>
+      <p><strong>Client:</strong> Regional E-Commerce Platform</p>
+      <p><strong>Findings:</strong> SQLi, XSS, IDOR, Broken Auth</p>
+      <p><strong>Delivery:</strong> Report with PoC in 4 days</p>
+      <p><strong>Impact:</strong> Secured all critical vulnerabilities and passed audit</p>
+    </div>
+  </section>
+
+  <section id="reviews" class="page-section">
+    <div class="container bg-light py-5 rounded-3">
+      <h2>Client Feedback</h2>
+      <blockquote>“ashik’s testing helped us secure our app before going live. Very thorough and responsive.”</blockquote>
+      <blockquote>“Professional and reliable. Delivered more than expected.”</blockquote>
+    </div>
+  </section>
+
+  <section id="faq" class="page-section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Do you sign NDAs?</strong><br>Yes, I’m happy to work under NDAs and agreements.</p>
+      <p><strong>How long does a test take?</strong><br>Depends on the size, typically 3–7 days.</p>
+      <p><strong>Will you retest?</strong><br>Yes, I offer free retesting after fixes.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="page-section">
+    <div class="container bg-light py-5 rounded-3">
+      <h2>Contact Me</h2>
+      <p><strong>Email:</strong> <a href="mailto:rionmia60@gmail.com">rionmia60@gmail.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:01701908711">01701908711</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://bd.linkedin.com/in/md-rion-mia-3416291ba" target="_blank" rel="noopener noreferrer">linkedin.com/in/md-rion-mia</a></p>
+    </div>
+  </section>
+</main>
+
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 ashik. Web Application Security Specialist. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const navLinks = document.querySelectorAll('#navLinks .nav-link');
+  const sections = document.querySelectorAll('.page-section');
+
+  function setActiveSection(targetId) {
+    sections.forEach(section => {
+      section.classList.toggle('active', section.id === targetId);
+    });
+    navLinks.forEach(link => {
+      link.classList.toggle('active-link', link.getAttribute('data-target') === targetId);
+    });
+  }
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const target = link.getAttribute('data-target');
+      setActiveSection(target);
+      window.scrollTo({top: 0, behavior: 'smooth'});
+    });
+  });
+
+
+
+
+</script>
+</body>
+</html>
